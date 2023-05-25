@@ -1,1 +1,1 @@
-Regression Analysis of steel products offer prices.P
+Regression Analysis of steel products offer prices.
