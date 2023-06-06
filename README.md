@@ -7,7 +7,7 @@
 
 ## SUMMARY
 - Selected Model: XGBoost
-- Hyperparameter search method: bayesian Search CV
+- Hyperparameter search method: Bayesian Search CV
 - Best r2 score:
   - Test r2 score: 0.90
   - Train r2 score:  0.92
@@ -20,6 +20,13 @@
   - ‘delivery date’
   - ‘status’ .
 - Categorical features shortlisting criteria: ANOVA test F statistical scores. (for detailed eda refer EDA notebook)
+- High value of ANOVA F statistics shows that, the mean and spread of data among different categories are easily separable so such         features gives better r2 score and explaining variance for model becomes easy.
+- Numerical features were power transformed and standardized to get near gaussian like distribution.
+- Categorical features were one-hot encoded.
+- Total input features: 98
+- Important Features:
+  - ‘status’
+  - ‘delivery date’
 
 |Model|Train r2 score|Val r2 score|Test r2 score|Hyperparameter search method|
 |----------------|--------------|------------|-------------|----------------------------|
