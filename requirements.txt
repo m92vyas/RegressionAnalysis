@@ -1,11 +1,12 @@
-#pandas
-#numpy
-#matplotlib
-#seaborn
+pandas
+numpy
+matplotlib
+seaborn
 scikit-learn
-#scipy
-#xgboost
-#scikit-optimize
-#tensorflow
-#tensorflow-addons
-#-e .
+scipy
+xgboost
+scikit-optimize
+tensorflow
+tensorflow-addons
+flask
+-e .
