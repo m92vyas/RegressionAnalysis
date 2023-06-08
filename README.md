@@ -19,7 +19,7 @@
   - ‘product_ref’
   - ‘delivery date’
   - ‘status’ .
-- Categorical features shortlisting criteria: ANOVA test F statistical scores. (for detailed eda refer EDA notebook)
+- Categorical features shortlisting criteria: ANOVA test F statistical scores. (for details, refer EDA notebook)
 - High value of ANOVA F statistics shows that, the mean and spread of data among different categories are easily separable so such         features gives better r2 score and explaining variance for model becomes easy.
 - Numerical features were power transformed and standardized to get near gaussian like distribution.
 - Categorical features were one-hot encoded.
